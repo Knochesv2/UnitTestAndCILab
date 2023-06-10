@@ -35,5 +35,10 @@ public class CILabTest {
         myString.setString("Google");
         assertTrue(myString.detectCapitalUse());
     }
-
+    @Test
+    public void detectCapitalUseTest4() {
+        //null case pointer case passed
+        myString.setString(null);
+        assertTrue(myString.detectCapitalUse());
+    }
 }
