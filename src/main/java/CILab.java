@@ -22,7 +22,7 @@ public class CILab implements CILabInterface {
                 rightCaseCapsCount++;
         }
         //case one
-        if(rightCaseCapsCount == wordLen) {
+        if(rightCaseCapsCount == wordLen || rightCaseCapsCount == 0) {
             detectionCapUseFlag = true;
         }
         return detectionCapUseFlag;
