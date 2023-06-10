@@ -15,7 +15,7 @@ public class CILab implements CILabInterface {
     public boolean detectCapitalUse() {
         String word = getString();
         if(word == null)
-            return false;
+            return true;
 
         boolean detectionCapUseFlag = false;
 
