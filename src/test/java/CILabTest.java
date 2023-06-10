@@ -30,6 +30,10 @@ public class CILabTest {
         myString.setString("leetcode");
         assertTrue(myString.detectCapitalUse());
     }
-
+    @Test
+    public void detectCapitalUseTest3() {
+        myString.setString("Google");
+        assertTrue(myString.detectCapitalUse());
+    }
 
 }
